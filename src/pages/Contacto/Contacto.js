@@ -7,8 +7,14 @@ function Contacto() {
 
 	const [success, setSuccess] = useState(false);
 
-	function handleClick() {
+	function handleClickAlert () {
 		setSuccess(false);
+	}
+
+	function handleClick(e) {
+		e.preventDefault();
+		setSuccess(true);
+		
 	}
 
 	useEffect(() => {
@@ -41,7 +47,7 @@ function Contacto() {
           <div className="row ">
             <div className="col-12 col-md-6 offset-md-3">
 
-      <form name="contact" action="contacto/?success=true" method="POST">
+      <form name="contact" action="/?success=true" method="POST">
 		  					<input type="hidden" name="form-name" value="contact"/>
 							<div class="form-row">
 								<div class="form-group col-12 col-md-6">
@@ -89,7 +95,11 @@ function Contacto() {
 							</div>
 							<div class="form-row">
 								<div class="form-group col">
-									<button type="submit" class="btn btn-block btn-outline-success btn-panchi">
+									<button 
+									type="submit" 
+									class="btn btn-block btn-outline-success btn-panchi"
+									onClick={handleClick}
+									>
 										Enviar
 									</button>
 								</div>
@@ -97,7 +107,7 @@ function Contacto() {
 							{success && (
 			  <div class="alert alert-success fade show" role="alert">
 			  Mensaje enviado! Gracias por contactarte!
-			  <button type="button" class="close" onClick={handleClick} >
+			  <button type="button" class="close" onClick={handleClickAlert} >
 			  <span aria-hidden="true">&times;</span>
   </button>
 			</div>

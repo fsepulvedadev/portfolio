@@ -15,7 +15,7 @@ function Footer () {
 
     return (
         <>
-        <div className="container d-flex flex-column align-items-between justify-content-center">
+        <div className="container">
 
           <div className="footer">
               <div className="row">

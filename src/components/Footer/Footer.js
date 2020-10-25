@@ -15,9 +15,9 @@ function Footer () {
 
     return (
         <>
-        <div className="container">
+        <div className="container d-flex flex-column ">
 
-          <div className="footer">
+          <div className="footer ">
               <div className="row">
                   <div className="col-12 col-md-6 offset-md-3 text-left">
 
@@ -36,7 +36,7 @@ function Footer () {
                   </div>
               </div>
             <div className="row w-100">
-                <div className="col-12 col-md-6 offset-md-3">
+                <div className="col-12 col-md-6 offset-md-3 ">
 
                 <ul className="d-flex flex-row justify-content-between lista-footer ">
                     <li>

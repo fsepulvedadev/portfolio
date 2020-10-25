@@ -13,7 +13,7 @@ function NavbarMain () {
     <Row>
 
       <Col>
-      <Navbar bg="dark" variant="dark" expand="lg" className="navbar ">
+      <Navbar bg="dark" variant="dark" expand="lg" className="navbar d-flex align-items-center justify-content-center">
       <Container>
 
           <Navbar.Brand href="#home" className="console-color text-monospace"><span className="d-none d-md-inline">&copy;2020 -</span> Francisco Sepulveda</Navbar.Brand>

@@ -1,8 +1,23 @@
 import React from 'react';
 import './Contacto.css'
 import Typical from 'react-typical'
+import { useState, useEffect } from 'react';
 
 function Contacto() {
+
+	const [success, setSuccess] = useState(false);
+
+	function handleClick() {
+		setSuccess(false);
+	}
+
+	useEffect(() => {
+		if ( window.location.search.includes('success=true') ) {
+		  setSuccess(true)
+		
+		}
+	  }, []);
+
   return (
 
     <div className="contacto d-flex align-items-center">
@@ -26,7 +41,7 @@ function Contacto() {
           <div className="row ">
             <div className="col-12 col-md-6 offset-md-3">
 
-      <form name="contact" action="/contacto" method="POST">
+      <form name="contact" action="/?success=true" method="POST">
 		  					<input type="hidden" name="form-name" value="contact"/>
 							<div class="form-row">
 								<div class="form-group col-12 col-md-6">
@@ -79,9 +94,18 @@ function Contacto() {
 									</button>
 								</div>
 							</div>
+							{success && (
+			  <div class="alert alert-success fade show" role="alert">
+			  Mensaje enviado! Gracias por contactarte!
+			  <button type="button" class="close" onClick={handleClick} >
+			  <span aria-hidden="true">&times;</span>
+  </button>
+			</div>
+		  )}
 						</form>
             </div>
           </div>
+		
           <div className="row">
             <div className="col text-center">
               <h4 className="mt-4">Tambien podes escribirme en cualquiera de mis redes aqui abajo! 😉</h4>

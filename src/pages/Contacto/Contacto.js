@@ -11,8 +11,8 @@ function Contacto() {
 		setSuccess(false);
 	}
 
-	function handleClick(e) {
-		e.preventDefault();
+	function handleSubmit(e) {
+		
 		setSuccess(true);
 		
 	}
@@ -47,7 +47,7 @@ function Contacto() {
           <div className="row ">
             <div className="col-12 col-md-6 offset-md-3">
 
-      <form name="contact" action="/?success=true" method="POST">
+      <form name="contact" action="./contacto" method="POST">
 		  					<input type="hidden" name="form-name" value="contact"/>
 							<div class="form-row">
 								<div class="form-group col-12 col-md-6">
@@ -98,7 +98,7 @@ function Contacto() {
 									<button 
 									type="submit" 
 									class="btn btn-block btn-outline-success btn-panchi"
-									onClick={handleClick}
+									onClick={handleSubmit}
 									>
 										Enviar
 									</button>

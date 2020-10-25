@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contacto.css'
 import Typical from 'react-typical'
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 function Contacto() {
 

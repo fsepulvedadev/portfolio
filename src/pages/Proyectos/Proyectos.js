@@ -99,7 +99,7 @@ function App() {
                <ul className="list-inline d-flex justify-content-around lista-proyect">
                  
                  <li className="list-inline-item">
-                       <a href="https://github.com/panchixnrc"><img style={{ width: "25px"}} src={Github} alt="Github logo"/></a> 
+                       <a target="_blank" rel="noopener noreferrer" href="https://github.com/panchixnrc/web-sya"><img style={{ width: "25px"}} src={Github} alt="Github logo"/></a> 
 
                     </li>
                  <li className="list-inline-item">
@@ -142,7 +142,7 @@ function App() {
                <ul className="list-inline d-flex justify-content-around lista-proyect">
                  
                  <li className="list-inline-item">
-                       <a target="_blank" rel="noopener noreferrer" href="https://github.com/panchixnrc"><img style={{ width: "25px"}} src={Github} alt="Github logo"/></a> 
+                       <a target="_blank" rel="noopener noreferrer" href="https://github.com/panchixnrc/modularweb"><img style={{ width: "25px"}} src={Github} alt="Github logo"/></a> 
 
                     </li>
                  <li className="list-inline-item">
@@ -160,7 +160,7 @@ function App() {
               <Card.Body>
                 <Card.Title>Este Portfolio</Card.Title>
                 <Card.Text>
-                 Este portfolio esta desarrollado en React, usando varias de sus herramientas como React Router, para los estilos utiliza Bootstrap y para el contacto NodeMailer.
+                 Este portfolio esta desarrollado en React, usando varias de sus herramientas como React Router, para los estilos utiliza Bootstrap y para el contacto Netlify Forms.
                 </Card.Text>
                 <hr/>
                 <ul className="list-inline lista-tec d-flex justify-content-around align-items-center">

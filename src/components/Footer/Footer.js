@@ -14,8 +14,8 @@ function Footer () {
 
 
     return (
-        <>
-        <div className="container d-flex flex-column ">
+        <div className="d-flex flex-column">
+        <div className="container ">
 
           <div className="footer ">
               <div className="row">
@@ -63,7 +63,7 @@ function Footer () {
         </div>
         </div>
 
-        </>
+        </div>
     )
 }
 

@@ -1,0 +1,33 @@
+
+@font-face {
+  font-family: console;
+  src: url("./assets/fonts/Pixeled.ttf")
+}
+.container {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.App {
+  background: black;
+  
+  height: 70vh;
+  
+  
+}
+
+.main  {
+  height: 100%;
+ 
+
+}
+
+.main h1 {
+  font-size: 3rem;
+  color: #4af628;
+}
+
+.blueConsole {
+  font-weight: 500 !important;
+  color: #386fa4 !important;
+}

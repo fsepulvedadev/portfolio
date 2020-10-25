@@ -1,0 +1,26 @@
+.navbar {
+    width: 100%;
+    height: 10vh;
+    
+
+}
+
+.console-color {
+    color: #4AF626 !important;
+}
+
+
+.navbar a {
+    color: #4AF626;
+    height: 100%;
+    transition: all 0.2s;
+}
+.navbar .nav-link a:hover {
+    border-bottom: 1px solid #4AF626;
+    
+    text-decoration: none;
+}
+
+.navbar-dark {
+    background-color: black !important;
+}

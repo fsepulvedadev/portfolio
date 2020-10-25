@@ -1,0 +1,60 @@
+.main-proyect {
+    background: black;
+    color: #4af628;
+    height: 30vh;
+    margin-top: 4rem;
+}
+.main-proyect .col {
+  height: 50%;
+}
+
+.cards {
+  height: 30vh;
+}
+.card {
+    margin-top: 3rem;
+}
+.card img {
+    height: 100%;
+    
+}
+.card hr {
+    background-color: #4af628;
+
+}
+.bg-dark {
+    background-color: black !important;
+    color:  #4af628 !important;
+}
+
+.border-success {
+    border: 1px solid  #4af628 !important;
+}
+
+.btn-success {
+    background-color:  #4af628 ;
+    color: black;
+}
+
+.green-filter {
+    filter: grayscale(100%);
+    transition: all 0.5s;
+}
+
+.green-filter:hover {
+    filter: none;
+}
+
+.lista-proyect {
+    transition: all 0.5s;
+}
+.lista-proyect li:hover {
+    filter: drop-shadow(0 0 0.75rem #4af628);
+}
+
+
+
+.lista-tec li img {
+    width: 1.6rem;
+    
+}

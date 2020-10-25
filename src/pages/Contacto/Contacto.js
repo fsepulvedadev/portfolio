@@ -26,11 +26,12 @@ function Contacto() {
           <div className="row ">
             <div className="col-12 col-md-6 offset-md-3">
 
-      <form action="/send-email" method="POST">
-              
+      <form name="contact" action="/contact" method="POST">
+		  					<input type="hidden" name="form-name" value="contact"/>
 							<div class="form-row">
 								<div class="form-group col-12 col-md-6">
 									<input
+										required
 										type="text"
 										class="form-control formulario"
 										name="name"
@@ -39,6 +40,7 @@ function Contacto() {
 								</div>
 								<div class="form-group col-12 col-md-6">
 									<input
+										required
 										type="text"
 										class="form-control"
 										name="apellido"
@@ -49,6 +51,7 @@ function Contacto() {
 							<div class="form-row">
 								<div class="form-group col-12 col-md-12">
 									<input
+										required
 										type="text"
 										class="form-control"
 										name="email"
@@ -60,7 +63,7 @@ function Contacto() {
 							<div class="form-row">
 								<div class="form-group form-group-lg col-12">
 									<textarea
-                 
+									
 										class="form-control bg-negro"
 										id="exampleFormControlTextarea1"
 										placeholder="Escribime tu consulta"

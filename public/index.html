@@ -33,6 +33,57 @@
   </head>
   <body>
     <div id="root"></div>
+    <form name="contact" action="/contact" method="POST" netlify netlify-honeypot="bot-field" hidden>
+              
+      <div class="form-row">
+        <div class="form-group col-12 col-md-6">
+          <input
+            type="text"
+            class="form-control formulario"
+            name="name"
+            placeholder="Nombre"
+          />
+        </div>
+        <div class="form-group col-12 col-md-6">
+          <input
+            type="text"
+            class="form-control"
+            name="apellido"
+            placeholder="Apellido"
+          />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-12 col-md-12">
+          <input
+            type="text"
+            class="form-control"
+            name="email"
+            placeholder="Email"
+          />
+        </div>
+      </div>
+  
+      <div class="form-row">
+        <div class="form-group form-group-lg col-12">
+          <textarea
+         
+            class="form-control bg-negro"
+            id="exampleFormControlTextarea1"
+            placeholder="Escribime tu consulta"
+            name="message"
+            rows="3"
+          ></textarea>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col">
+          <button type="submit" class="btn btn-block btn-outline-success btn-panchi">
+            Enviar
+          </button>
+        </div>
+      </div>
+    </form>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

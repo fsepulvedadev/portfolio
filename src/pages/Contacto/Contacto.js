@@ -26,7 +26,7 @@ function Contacto() {
           <div className="row ">
             <div className="col-12 col-md-6 offset-md-3">
 
-      <form name="contact" action="/contact" method="POST">
+      <form name="contact" action="/contacto" method="POST">
 		  					<input type="hidden" name="form-name" value="contact"/>
 							<div class="form-row">
 								<div class="form-group col-12 col-md-6">
@@ -63,7 +63,7 @@ function Contacto() {
 							<div class="form-row">
 								<div class="form-group form-group-lg col-12">
 									<textarea
-									
+
 										class="form-control bg-negro"
 										id="exampleFormControlTextarea1"
 										placeholder="Escribime tu consulta"

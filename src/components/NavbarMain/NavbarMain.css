@@ -14,6 +14,7 @@
     color: #4AF626;
     height: 100%;
     transition: all 0.2s;
+    text-decoration: none;
 }
 .navbar .nav-link a:hover {
     border-bottom: 1px solid #4AF626;

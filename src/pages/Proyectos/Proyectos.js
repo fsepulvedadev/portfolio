@@ -52,7 +52,7 @@ function App() {
           steps={[
             ' Estos son algunos de mis proyectos',
             3000,
-            'Estoy trabajando en varios mas 🚀',
+            'Estoy trabajando en varios más 🚀',
             3000
            
           ]}
@@ -117,7 +117,7 @@ function App() {
               <Card.Body>
                 <Card.Title>Website Modular Espacios</Card.Title>
                 <Card.Text>
-                 Web para emprendimiento de construccion con contenedores. Cuenta con un form de contacto con NodeMailer y una galeria para mostrar productos.
+                 Web para emprendimiento de construcción con contenedores. Cuenta con un formulario de contacto con NodeMailer y una galería para mostrar productos.
                 </Card.Text>
                 <hr/>
                 <ul className="list-inline lista-tec d-flex justify-content-around align-items-center">
@@ -160,7 +160,7 @@ function App() {
               <Card.Body>
                 <Card.Title>Este Portfolio</Card.Title>
                 <Card.Text>
-                 Este portfolio esta desarrollado en React, usando varias de sus herramientas como React Router, para los estilos utiliza Bootstrap y para el contacto Netlify Forms.
+                 Este portfolio está desarrollado en React, usando varias de sus herramientas como React Router, para los estilos utiliza Bootstrap y para el contacto Netlify Forms.
                 </Card.Text>
                 <hr/>
                 <ul className="list-inline lista-tec d-flex justify-content-around align-items-center">

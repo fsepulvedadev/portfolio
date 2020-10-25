@@ -40,10 +40,10 @@ function Footer () {
 
                 <ul className="d-flex flex-row justify-content-between lista-footer ">
                     <li>
-                       <a href="//twitter.com/@panchisepulveda"> <img src={Twitter} alt="Twitter logo"/></a>
+                       <a target="_blank" rel="noopener noreferrer"  href="//twitter.com/@panchisepulveda"> <img src={Twitter} alt="Twitter logo"/></a>
                     </li>
                     <li>
-                       <a href="https://github.com/panchixnrc"><img  src={Github} alt="Github logo"/></a> 
+                       <a target="_blank" rel="noopener noreferrer" href="https://github.com/panchixnrc"><img  src={Github} alt="Github logo"/></a> 
 
                     </li>
                         <li>

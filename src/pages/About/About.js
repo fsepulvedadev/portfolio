@@ -34,8 +34,8 @@ function About() {
             <img src={perfil} alt="Foto propia"/>
           </div>
           <div className="col-12 col-md-4 ">
-            <p>Tengo 27 años, soy de Neuquen, Argentina y estoy aprendiendo programacion web de forma autodidacta desde hace mas de un año y medio.</p>
-            <p>En este tiempo he logrado adquirir conocimientos en varias tecnologias como:
+            <p>Tengo 27 años, soy de Neuquén, Argentina y estoy aprendiendo programación web de forma autodidacta desde hace más de un año y medio.</p>
+            <p>En este tiempo he logrado adquirir conocimientos en varias tecnologías como:
             </p>
                 <ul className="list-inline lista-tec d-flex justify-content-around align-items-center">
                   <li className="list-inline-item">

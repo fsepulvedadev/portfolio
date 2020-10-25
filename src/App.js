@@ -33,11 +33,11 @@ function App() {
           steps={[
             'Hola! Soy Francisco;',
             1000,
-            'Estoy aprendiendo programacion;',
+            'Estoy aprendiendo programación;',
             1000,
             'De forma autodidacta hace 1 año; ',
             1000,
-            'Estoy en busqueda laboral activa! 🤞',
+            'Estoy en búsqueda laboral activa! 🤞',
             2000
           ]}
           />

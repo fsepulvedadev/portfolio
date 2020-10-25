@@ -11,18 +11,12 @@ function Contacto() {
 		setSuccess(false);
 	}
 
-	function handleSubmit(e) {
+	function handleSubmit() {
 		
 		setSuccess(true);
 		
 	}
 
-	useEffect(() => {
-		if ( window.location.search.includes('success=true') ) {
-		  setSuccess(true)
-		
-		}
-	  }, []);
 
   return (
 

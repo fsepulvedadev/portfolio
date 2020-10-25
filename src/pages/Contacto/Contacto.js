@@ -41,7 +41,7 @@ function Contacto() {
           <div className="row ">
             <div className="col-12 col-md-6 offset-md-3">
 
-      <form name="contact" action="/?success=true" method="POST">
+      <form name="contact" action="contacto/?success=true" method="POST">
 		  					<input type="hidden" name="form-name" value="contact"/>
 							<div class="form-row">
 								<div class="form-group col-12 col-md-6">

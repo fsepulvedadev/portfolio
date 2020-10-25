@@ -99,11 +99,11 @@ function App() {
                <ul className="list-inline d-flex justify-content-around lista-proyect">
                  
                  <li className="list-inline-item">
-                       <a target="_blank" rel="noopener noreferrer" href="https://github.com/panchixnrc/web-sya"><img style={{ width: "25px"}} src={Github} alt="Github logo"/></a> 
+                       <a target="_blank" rel="noopener noreferrer" href="https://github.com/panchixnrc/web-sya"><img style={{ width: "25px"}} src={Github} alt="Github logo"/>{' '}<span>Repo</span></a> 
 
                     </li>
                  <li className="list-inline-item">
-                       <a target="_blank" rel="noopener noreferrer" href="https://web-sya-mailer.herokuapp.com/"><img style={{ width: "25px"}} src={website} alt="Live demo" /></a> 
+                       <a target="_blank" rel="noopener noreferrer" href="https://web-sya-mailer.herokuapp.com/"><img style={{ width: "25px"}} src={website} alt="Live demo" />{' '}<span>Live demo</span></a> 
 
                     </li>
                 
@@ -142,11 +142,11 @@ function App() {
                <ul className="list-inline d-flex justify-content-around lista-proyect">
                  
                  <li className="list-inline-item">
-                       <a target="_blank" rel="noopener noreferrer" href="https://github.com/panchixnrc/modularweb"><img style={{ width: "25px"}} src={Github} alt="Github logo"/></a> 
+                       <a target="_blank" rel="noopener noreferrer" href="https://github.com/panchixnrc/modularweb"><img style={{ width: "25px"}} src={Github} alt="Github logo"/>{' '}<span>Repo</span></a> 
 
                     </li>
                  <li className="list-inline-item">
-                       <a target="_blank" rel="noopener noreferrer" href="https://www.modularneuquen.com"><img style={{ width: "25px"}} src={website} alt="Live demo" /></a> 
+                       <a target="_blank" rel="noopener noreferrer" href="https://www.modularneuquen.com"><img style={{ width: "25px"}} src={website} alt="Live demo" />{' '}<span>Live demo</span></a> 
 
                     </li>
                 
@@ -185,11 +185,11 @@ function App() {
                <ul className="list-inline d-flex justify-content-around lista-proyect">
                  
                  <li className="list-inline-item">
-                       <a target="_blank" rel="noopener noreferrer" href="https://github.com/panchixnrc/portfolio-react"><img style={{ width: "25px"}} src={Github} alt="Github logo"/></a> 
+                       <a target="_blank" rel="noopener noreferrer" href="https://github.com/panchixnrc/portfolio-react"><img style={{ width: "25px"}} src={Github} alt="Github logo"/>{' '}<span>Repo</span></a> 
 
                     </li>
                  <li className="list-inline-item">
-                       <a target="_blank" rel="noopener noreferrer" href="https://web-sya-mailer.herokuapp.com/"><img style={{ width: "25px"}} src={website} alt="Live demo" /></a> 
+                       <a target="_blank" rel="noopener noreferrer" href="https://web-sya-mailer.herokuapp.com/"><img style={{ width: "25px"}} src={website} alt="Live demo" />{' '}<span>Live demo</span></a> 
 
                     </li>
                 

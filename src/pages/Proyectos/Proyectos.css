@@ -51,7 +51,10 @@
 .lista-proyect li:hover {
     filter: drop-shadow(0 0 0.75rem #4af628);
 }
-
+.lista-proyect a {
+    text-decoration: none;
+    color: #4af628 ;
+}
 
 
 .lista-tec li img {

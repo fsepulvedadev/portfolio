@@ -1,7 +1,7 @@
 .main-proyect {
     background: black;
     color: #4af628;
-    height: 30vh;
+    height: 100%;
     margin-top: 4rem;
 }
 .main-proyect .col {
@@ -9,7 +9,7 @@
 }
 
 .cards {
-  height: 30vh;
+  height: 100%;
 }
 .card {
     margin-top: 3rem;

@@ -9,7 +9,7 @@ function App() {
   
 
       <Row className="px-0 m-0 w-100">
-          <Col className="mt-4 p-0 mx-0">
+          <Col className="mt-4 p-0 mx-2">
 
       <div className="App text-left pl-4">
      

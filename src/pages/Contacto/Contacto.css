@@ -1,0 +1,54 @@
+.container {
+    color: #4af628;
+    
+}
+
+.contacto {
+    height: 40rem;
+}
+
+input[type="text"] {
+
+    background-color : black; 
+    
+  
+  }
+  input[type="text"]:focus {
+
+    background-color : black; 
+    
+  
+  }
+
+  ::placeholder {
+      color: #4af628 !important;
+  }
+
+  input, select, textarea{
+    color: #4af628 !important;
+    background-color: black !important;
+    border-color: #4af628 !important;
+}
+
+textarea:focus, input:focus {
+    color: #4af628 !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid #4af628;
+  -webkit-text-fill-color: #4af628;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.btn-panchi {
+    color:#4af628 !important;
+}

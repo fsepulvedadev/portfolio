@@ -1,0 +1,10 @@
+.perfil img {
+    width: 250px;
+    border-radius: 100%;
+    filter: grayscale(100%);
+    transition: all 0.5s;
+}
+.perfil img:hover {
+    
+    filter: grayscale(0%);
+}

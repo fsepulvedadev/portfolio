@@ -12,7 +12,8 @@ import css  from '../../assets/img/css3.svg'
 import node from '../../assets/img/node.svg'
 import bootstrap from '../../assets/img/bootstrap.svg'
 import js from '../../assets/img/javascript.svg'
-import Footer from '../../components/Footer/Footer'
+import portfolio from '../../assets/img/screen-portfolio.png'
+import ReactIcon from '../../assets/img/icon-react.svg'
 
 
 
@@ -23,7 +24,7 @@ function App() {
         <div className="col">
 
         
-        <h1 className="text-monospace text-break text-center mt-md-4">
+        <h1 className="text-monospace text-break text-center">
           {' '}
           <Typical
           
@@ -152,16 +153,36 @@ function App() {
             </div>
             <div className="col-12 col-md-4 ">
                       <Card bg="dark" border="success" style={{ width: '20rem' }}>
-              <Card.Img className="green-filter" variant="top" src={sya} />
+              <Card.Img className="green-filter" variant="top" src={portfolio} />
               <Card.Body>
-                <Card.Title>Website S & A</Card.Title>
+                <Card.Title>Este Portfolio</Card.Title>
                 <Card.Text>
-                 Landing page para empresa de transporte, desarrollado con HTLM, CSS, BOOTSTRAP en el backend Node.js con NodeMailer.
+                 Este portfolio esta desarrollado en React, usando varias de sus herramientas como React Router, para los estilos utiliza Bootstrap y para el contacto NodeMailer.
                 </Card.Text>
+                <hr/>
+                <ul className="list-inline lista-tec d-flex justify-content-around align-items-center">
+                  <li className="list-inline-item">
+                      <img src={ReactIcon} alt="React"/>
+                  </li>
+                  <li className="list-inline-item">
+                      <img src={css} alt="css"/>
+                  </li>
+                  <li className="list-inline-item">
+                      <img src={js} alt="javascript"/>
+                  </li>
+                  <li className="list-inline-item">
+                      <img src={node} alt="node"/>
+                  </li>
+                  <li className="list-inline-item">
+                      <img src={bootstrap} alt="bootstrap"/>
+                  </li>
+                  
+                </ul>
+                <hr/>
                <ul className="list-inline d-flex justify-content-around lista-proyect">
                  
                  <li className="list-inline-item">
-                       <a target="_blank" rel="noopener noreferrer" href="https://github.com/panchixnrc"><img style={{ width: "25px"}} src={Github} alt="Github logo"/></a> 
+                       <a target="_blank" rel="noopener noreferrer" href="https://github.com/panchixnrc/portfolio-react"><img style={{ width: "25px"}} src={Github} alt="Github logo"/></a> 
 
                     </li>
                  <li className="list-inline-item">

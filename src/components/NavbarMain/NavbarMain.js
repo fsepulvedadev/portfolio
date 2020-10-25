@@ -23,8 +23,8 @@ function NavbarMain () {
 
             <Nav.Link> <Link to="/">/Inicio </Link></Nav.Link>
             <Nav.Link ><Link to="/proyectos">/Proyectos </Link> </Nav.Link>
-            <Nav.Link ><Link to="/contacto">/Contacto </Link> </Nav.Link>
             <Nav.Link ><Link to="/about">/Sobre mi </Link> </Nav.Link>
+            <Nav.Link ><Link to="/contacto"> /Contacto </Link> </Nav.Link>
     
         </Nav>
    

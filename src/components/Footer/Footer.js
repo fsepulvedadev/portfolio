@@ -54,6 +54,12 @@ function Footer () {
                 </div>
 
             </div>
+            <div className="row">
+                <div className="col-12 text-center mt-4">
+                <h5>Made with <span role="img">💚</span> for <a target="_blank" rel="noopener noreferrer" href="https://github.com/panchixnrc">Francisco Sepulveda</a></h5>
+
+                </div>
+            </div>
         </div>
         </div>
 

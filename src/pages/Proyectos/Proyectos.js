@@ -19,7 +19,7 @@ import ReactIcon from '../../assets/img/icon-react.svg'
 
 function App() {
   return (
-    <div className="container">
+    <div className="container d-flex justify-content-center align-items-center flex-column">
     <div className="row main-proyect d-none d-md-flex justify-content-center align-items-end">
         <div className="col">
 

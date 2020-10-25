@@ -12,7 +12,7 @@ function About() {
   return (
 
     <div className="About text-monospace">
-      <div className="container">
+      <div className="container d-flex flex-column align-items-center justify-content-center">
         <div className="row text-center">
           <div className="col">
 

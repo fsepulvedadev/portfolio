@@ -20,8 +20,8 @@ function Contacto() {
 
   return (
 
-    <div className="contacto d-flex align-items-center">
-      <div className="container text-monospace">
+    <div className="contacto d-flex flex-column justify-content-center align-items-center mx-0 px-0">
+      <div className="container text-monospace ">
     <div className="row text-center">
       <div className="col">
       <h1 className="my-4">

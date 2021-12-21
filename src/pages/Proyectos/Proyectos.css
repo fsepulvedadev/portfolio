@@ -1,8 +1,8 @@
 .main-proyect {
-    background: black;
-    color: #4af628;
-    height: 100%;
-    margin-top: 4rem;
+  background: black;
+  color: #4af628;
+  height: 100%;
+  margin-top: 4rem;
 }
 .main-proyect .col {
   height: 50%;
@@ -12,52 +12,60 @@
   height: 100%;
 }
 .card {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 .card img {
-    height: 100%;
-    
+  height: 100%;
 }
 .card hr {
-    background-color: #4af628;
-
+  background-color: #4af628;
 }
 .bg-dark {
-    background-color: black !important;
-    color:  #4af628 !important;
+  background-color: black !important;
+  color: #4af628 !important;
 }
 
 .border-success {
-    border: 1px solid  #4af628 !important;
+  border: 1px solid #4af628 !important;
 }
 
 .btn-success {
-    background-color:  #4af628 ;
-    color: black;
+  background-color: #4af628;
+  color: black;
 }
 
 .green-filter {
-    filter: grayscale(100%);
-    transition: all 0.5s;
+  filter: grayscale(100%);
+  transition: all 0.5s;
 }
 
 .green-filter:hover {
-    filter: none;
+  filter: none;
 }
 
 .lista-proyect {
-    transition: all 0.5s;
+  transition: all 0.5s;
 }
 .lista-proyect li:hover {
-    filter: drop-shadow(0 0 0.75rem #4af628);
+  filter: drop-shadow(0 0 0.75rem #4af628);
 }
 .lista-proyect a {
-    text-decoration: none;
-    color: #4af628 ;
+  text-decoration: none;
+  color: #4af628;
 }
 
-
 .lista-tec li img {
-    width: 1.6rem;
-    
+  width: 1.6rem;
+}
+
+.card-header-img {
+  height: 20vh !important;
+}
+
+.card-main {
+  height: 90% !important;
+}
+
+.linea-card {
+  margin-top: 6rem;
 }

@@ -49,9 +49,14 @@ function App() {
         <div className="row cards align-items-start justify-content-around text-monospace">
           <CardGroup>
             <div className=" col-12 col-md-4 ">
-              <Card bg="dark" border="success" style={{ width: "20rem" }}>
+              <Card
+                bg="dark"
+                border="success"
+                style={{ width: "20rem" }}
+                className="card-main"
+              >
                 <Card.Img
-                  className="green-filter"
+                  className="green-filter card-header-img"
                   variant="top"
                   src={regalos}
                 />
@@ -115,9 +120,14 @@ function App() {
               </Card>
             </div>
             <div className="col-12 col-md-4 ">
-              <Card bg="dark" border="success" style={{ width: "20rem" }}>
+              <Card
+                bg="dark"
+                border="success"
+                style={{ width: "20rem" }}
+                className="card-main"
+              >
                 <Card.Img
-                  className="green-filter"
+                  className="green-filter card-header-img"
                   variant="top"
                   src={modular}
                 />
@@ -128,7 +138,7 @@ function App() {
                     Cuenta con un formulario de contacto con NodeMailer y una
                     galería para mostrar productos.
                   </Card.Text>
-                  <hr />
+                  <hr className="linea-card" />
                   <ul className="list-inline lista-tec d-flex justify-content-around align-items-center">
                     <li className="list-inline-item">
                       <img src={html5} alt="html" />
@@ -180,16 +190,25 @@ function App() {
                 </Card.Body>
               </Card>
             </div>
-            <div className="col-12 col-md-4 ">
-              <Card bg="dark" border="success" style={{ width: "20rem" }}>
-                <Card.Img className="green-filter" variant="top" src={tareas} />
+            <div className="col-12 col-md-4">
+              <Card
+                bg="dark"
+                border="success"
+                style={{ width: "20rem" }}
+                className="card-main"
+              >
+                <Card.Img
+                  className="green-filter card-header-img"
+                  variant="top"
+                  src={tareas}
+                />
                 <Card.Body>
                   <Card.Title>Tareas App</Card.Title>
                   <Card.Text>
                     Web app para gestion de tareas realizada con React.js y
                     Tailwind.css
                   </Card.Text>
-                  <hr />
+                  <hr className="linea-card" />
                   <ul className="list-inline lista-tec d-flex justify-content-around align-items-center">
                     <li className="list-inline-item">
                       <img src={ReactIcon} alt="React" />

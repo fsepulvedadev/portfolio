@@ -15,6 +15,7 @@ import js from "../../assets/img/javascript.svg";
 import tareas from "../../assets/img/Tareas app.png";
 import ReactIcon from "../../assets/img/icon-react.svg";
 import TailwindIcon from "../../assets/img/tailwindcss.svg";
+import regalos from "../../assets/img/Regalosapp.png";
 
 function App() {
   return (
@@ -51,28 +52,25 @@ function App() {
               <Card bg="dark" border="success" style={{ width: "20rem" }}>
                 <Card.Img className="green-filter" variant="top" src={sya} />
                 <Card.Body>
-                  <Card.Title>Website S & A</Card.Title>
+                  <Card.Title>Regalos App</Card.Title>
                   <Card.Text>
-                    Landing page para empresa de transporte, desarrollado con
-                    HTLM, CSS, BOOTSTRAP en el backend Node.js con NodeMailer.
+                    Web app para armar listas de regalos , con varias funciones
+                    extra como regalo sorpresa, calculador de precio total. En
+                    este proyecto se utilizo React context para manejo del
+                    estado global, como tambien hooks como useState y useEffect
+                    y para los estilos se utilizo Tailwind.css
                   </Card.Text>
                   <Card.Text>
                     <hr />
                     <ul className="list-inline lista-tec d-flex justify-content-around align-items-center">
                       <li className="list-inline-item">
-                        <img src={html5} alt="html" />
+                        <img src={ReactIcon} alt="React" />
                       </li>
                       <li className="list-inline-item">
-                        <img src={css} alt="css" />
+                        <img src={TailwindIcon} alt="Tailwind" />
                       </li>
                       <li className="list-inline-item">
                         <img src={js} alt="javascript" />
-                      </li>
-                      <li className="list-inline-item">
-                        <img src={node} alt="node" />
-                      </li>
-                      <li className="list-inline-item">
-                        <img src={bootstrap} alt="bootstrap" />
                       </li>
                     </ul>
 
@@ -84,7 +82,7 @@ function App() {
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://github.com/panchixnrc/web-sya"
+                        href="https://github.com/panchixnrc/regalos-advency"
                       >
                         <img
                           style={{ width: "25px" }}
@@ -98,7 +96,7 @@ function App() {
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://web-sya-mailer.herokuapp.com/"
+                        href="https://regalos.netlify.app/"
                       >
                         <img
                           style={{ width: "25px" }}
@@ -117,7 +115,7 @@ function App() {
                 <Card.Img
                   className="green-filter"
                   variant="top"
-                  src={modular}
+                  src={regalos}
                 />
                 <Card.Body>
                   <Card.Title>Website Modular Espacios</Card.Title>

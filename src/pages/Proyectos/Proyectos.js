@@ -50,7 +50,11 @@ function App() {
           <CardGroup>
             <div className=" col-12 col-md-4 ">
               <Card bg="dark" border="success" style={{ width: "20rem" }}>
-                <Card.Img className="green-filter" variant="top" src={sya} />
+                <Card.Img
+                  className="green-filter"
+                  variant="top"
+                  src={regalos}
+                />
                 <Card.Body>
                   <Card.Title>Regalos App</Card.Title>
                   <Card.Text>
@@ -115,7 +119,7 @@ function App() {
                 <Card.Img
                   className="green-filter"
                   variant="top"
-                  src={regalos}
+                  src={modular}
                 />
                 <Card.Body>
                   <Card.Title>Website Modular Espacios</Card.Title>
